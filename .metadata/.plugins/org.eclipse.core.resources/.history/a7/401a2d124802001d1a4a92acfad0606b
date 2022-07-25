@@ -1,0 +1,23 @@
+package Paso1;
+
+public class Main {
+	//atributos
+	int numero1;
+	int numero1;
+	int suma;
+		  static void myMethod() {
+			  
+		    System.out.println("I just got executed!");
+		  }
+
+		  public static void main(String[] args) {
+		    myMethod();
+		    myMethod();
+		    myMethod();
+		  }
+		}
+
+		// I just got executed!
+		// I just got executed!
+		// I just got executed!
+

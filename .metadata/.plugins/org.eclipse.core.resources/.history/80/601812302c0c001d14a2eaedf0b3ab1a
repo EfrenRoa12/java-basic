@@ -1,0 +1,13 @@
+package Chatobot;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class EscribirFichero {
+
+	public static void main(String[] args) throws IOException {         
+    FileWriter fichero = new FileWriter("C:\\\\Users\\\\Efren\\\\Documents\\\\javaIOE\\\\archivo.txt"); 
+    fichero.write("Esto se escribirá en el fichero");     
+} 
+
+}

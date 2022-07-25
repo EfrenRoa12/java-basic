@@ -1,0 +1,48 @@
+package _4Arreglos;
+
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class _8mezcatabla {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		// Leer por teclado 2 tablas de 10 numeros enteros
+		// y mezcalrlos en una tercera de la forma
+		// 1 a 1 b 2 a 2 b
+
+		//int[] numeroA = new int[3];
+		//int[] numeroB = new int[3];
+		//int[] numeroC = new int[12];
+		int a[],b[],c[]; //c[]
+		a = new int[3];
+		b = new int[3];
+		c = new int[6]; //c=new int [20]
+		
+		for (int i = 0; i < 3; i++) {
+			System.out.println("Digita los elementos del arreglo A");
+			a[i] = entrada.nextInt();
+		}
+
+		for (int i = 0; i < 3; i++) {
+			System.out.println("Digita los elementos del arreglo B");
+			b[i] = entrada.nextInt();
+		}
+		
+		int j=0;
+		for (int i = 0; i < 3; i++) {
+			c[j] = a[i];
+			j++;
+			c[j] = b[i];
+			j++;
+		}
+		
+		for (int i = 0; i < 6; i++) {
+			System.out.println("Arreglo A: " + c[i]);
+			System.out.println("Arreglo B: " + c[i]);
+		}
+
+		System.out.println("***********FIN*************");
+	}
+
+}

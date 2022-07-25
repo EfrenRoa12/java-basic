@@ -1,0 +1,12 @@
+package _4Arreglos;
+
+public class _10Creciente_Decre {
+
+	public static void main(String[] args) {
+		// Leer por teclado una serie de 10 numeros enteros
+		//la aplicacion debe indicarnos si los numeros estan ordenados de forma creciente decreciente o desordenados
+		
+
+	}
+
+}

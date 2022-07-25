@@ -1,0 +1,16 @@
+package _4Arreglos;
+
+import java.util.Scanner;
+
+public class _10Creciente_Decre {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		// Leer por teclado una serie de 10 numeros enteros
+		//la aplicacion debe indicarnos si los numeros estan ordenados de forma creciente decreciente o desordenados
+		int[] a = new int[10];
+		
+
+	}
+
+}

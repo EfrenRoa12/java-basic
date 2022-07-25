@@ -1,0 +1,22 @@
+package Chatobot;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.nio.Buffer;
+import java.util.Scanner;
+
+public class PruebaException {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		//Exception verificada (IOException)
+		//lectura de un archivo de texto.txt
+		BufferedReader bf = new BufferesReader(new FileReader());
+		String linea;
+		while ((linea=bf.readLine()) !=null {
+			System.out.println(linea);
+		}
+		
+	}
+
+}

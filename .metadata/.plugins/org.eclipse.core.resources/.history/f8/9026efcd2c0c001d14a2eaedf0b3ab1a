@@ -1,0 +1,23 @@
+package Chatobot;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class EscribirFichero {
+
+	public static void main(String[] args) {
+
+	public static void main(String[] args) {
+		FileWriter fichero;
+		try {
+			// Las siguientes dos líneas pueden lanzar una excepción de tipo IOException
+			fichero = new FileWriter("ruta");
+			fichero.write("Esto se escribirá en el fichero");
+		} catch (IOException ioex) {
+			// Aquí capturamos cualquier excepción IOException que se lance (incluidas sus
+			// subclases)
+			ioex.printStackTrace();
+		}
+
+	}
+}

@@ -1,0 +1,53 @@
+package _4Arreglos;
+
+import java.util.Scanner;
+
+public class _9MezclaTres {
+
+	public static void main(String[] args) {
+
+		Scanner entrada = new Scanner(System.in);
+		// Leer los datos correspondientes a 2 tablas de 12 elementos numericos
+		// y mezclarlos en una tercera de la forma 3 de la tabla A, 3 de la tabla B
+		// otros 3 de la tabla Ay otros 3 de la tabla B
+		// 3 en 3
+		int[] numeroA = new int[3];
+		int[] numeroB = new int[3];
+		int[] numeroC = new int[6];
+		int[] numeroD = new int[6];
+
+		for (int i = 0; i < 3; i++) {
+			System.out.println("Digita los elementos del arreglo A");
+			numeroA[i] = entrada.nextInt();
+		}
+		for (int i = 0; i < 3; i++) {
+			System.out.println("Digita los elementos del arreglo B");
+			numeroB[i] = entrada.nextInt();
+		}
+		int j = 0;
+		for (int i = 0; i < 3; i++) {
+			numeroC[j] = numeroA[i];
+			j++;
+			numeroC[j] = numeroB[i];
+			j++;
+		}
+		int k = 0;
+		for (int i = 0; i < 3; i++) {
+			numeroD[k] = numeroA[i];
+			k++;
+			numeroD[k] = numeroB[i];
+			k++;
+		}
+		for (int i = 0; i < 6; i++) {
+			System.out.println("Arreglo Cab: " + numeroC[i]);
+			System.out.println("Arreglo Ca1b1: " + numeroD[i]);
+			System.out.println("Arreglo Ca1b1: " + numeroD[i]);
+		}
+		
+
+		
+
+		// *************************************************
+		System.out.println("***********FIN*************");
+	}
+}

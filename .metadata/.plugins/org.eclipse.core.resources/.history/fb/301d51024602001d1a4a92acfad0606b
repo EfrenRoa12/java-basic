@@ -1,0 +1,12 @@
+package Paso1;
+
+public class Main {
+	
+	static void myMethod() {
+		System.out.println("Im´rime metodo!");
+	}
+
+	public static void main(String[] args) {
+		myMethod();
+	}
+}

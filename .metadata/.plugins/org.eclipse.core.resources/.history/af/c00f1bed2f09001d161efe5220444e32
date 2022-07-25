@@ -1,0 +1,81 @@
+package _4Arreglos;
+
+import java.util.Scanner;
+
+public class _9MezclaTres {
+
+	public static void main(String[] args) {
+
+		Scanner entrada = new Scanner(System.in);
+		// Leer los datos correspondientes a 2 tablas de 12 elementos numericos
+		// y mezclarlos en una tercera de la forma 3 de la tabla A, 3 de la tabla B
+		// otros 3 de la tabla Ay otros 3 de la tabla B
+		// 3 en 3
+		//digita 12 elementos cada uno
+		int[] numeroA = new int[12];
+		int[] numeroB = new int[12];
+		//digita 12 elementos cada uno
+		int[] numeroC = new int[12];
+		int[] numeroD = new int[12];
+
+		for (int i= 0; i < numeroA.length; i++) {
+			System.out.print("Digita el arreglo A: ");
+			numeroA[i] = entrada.nextInt();
+		}
+		for (int i = 0; i <numeroB.length; i++) {
+			System.out.print("Digita  el arreglo B: ");
+			numeroB[i] = entrada.nextInt();
+		}
+		
+		int j=0;
+		for (int i = 0; i < 12; i++) {//si es 12 imprime de 1 a 12
+			numeroC[j] = numeroA[i];
+			j++;
+		}
+		int k=0;
+		for (int i = 0; i < 12; i++) {
+			numeroD[k] = numeroB[i];
+			k++;
+		}
+		
+		for (int i = 0; i < 3; i++) {// imprie solo 3 numeros
+			System.out.println("Arreglo A: " + numeroC[i]);
+			
+		}
+		
+		for (int i = 0; i < 3; i++) {// imprie solo 3 numeros
+			System.out.println("Arreglo B: " + numeroD[i]);
+			
+		}
+		//---------------------------------------------------
+		for (int i = 3; i < 6; i++) {// imprie solo 3 numeros
+			System.out.println("Arreglo A: " + numeroC[i]);
+			
+		}
+		
+		for (int i = 3; i < 6; i++) {// imprie solo 3 numeros
+			System.out.println("Arreglo B: " + numeroD[i]);
+			
+		}
+		for (int i = 6; i < 9; i++) {// imprie solo 3 numeros
+			System.out.println("Arreglo A: " + numeroC[i]);
+			
+		}
+		
+		for (int i = 6; i < 9; i++) {// imprie solo 3 numeros
+			System.out.println("Arreglo B: " + numeroD[i]);
+			
+		}
+		for (int i = 9; i < 12; i++) {// imprie solo 3 numeros
+			System.out.println("Arreglo A: " + numeroC[i]);
+			
+		}
+		
+		for (int i = 9; i < 12; i++) {// imprie solo 3 numeros
+			System.out.println("Arreglo B: " + numeroD[i]);
+			
+		}
+		System.out.println("***********FIN*************");
+		
+	}
+}

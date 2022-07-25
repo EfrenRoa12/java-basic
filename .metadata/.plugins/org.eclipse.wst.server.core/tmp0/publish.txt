@@ -1,0 +1,5 @@
+#Tomcat publish data
+#Sun Jul 17 12:29:29 CDT 2022
+org.eclipse.jst.j2ee.server\:HibernateCrudFrutas=C\:\\apache-tomcat-9.0.64\\wtpwebapps\\HibernateCrudFrutas
+org.eclipse.jst.j2ee.server\:CrudPerroMavens=C\:\\apache-tomcat-9.0.64\\wtpwebapps\\CrudPerroMavens
+org.eclipse.jst.j2ee.server\:ser=C\:\\apache-tomcat-9.0.64\\wtpwebapps\\ser

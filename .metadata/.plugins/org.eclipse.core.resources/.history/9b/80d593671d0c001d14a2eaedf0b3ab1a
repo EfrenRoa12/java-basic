@@ -1,0 +1,12 @@
+package Chatobot;
+
+import java.util.Scanner;
+
+public class PruebaException {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+
+	}
+
+}

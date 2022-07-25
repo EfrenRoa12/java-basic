@@ -1,0 +1,43 @@
+package _4Arreglos;
+
+public class _9Mezclaorrecto {
+
+	public static void main(String[] args) {
+		int a[],b[],c[];
+
+		a = new int[12];
+		b = new int[12];
+		c = new int[24];
+		int i,j;
+				for (i= 0; i < numeroA.length; i++) {
+					System.out.print("Digita el arreglo A: ");
+					numeroA[i] = entrada.nextInt();
+				}
+				for (i = 0; i <numeroB.length; i++) {
+					System.out.print("Digita  el arreglo B: ");
+					numeroB[i] = entrada.nextInt();
+				}
+
+
+
+		//vamos a mezclar los dos arreglos a y b
+		i = 0;
+		j = 0;
+
+
+		while(i<12){
+		copiamos los 3 elementos de a
+		for (int k = 0; k <3; k++) {
+					c[j] = a[i+k];
+					j++;
+				}
+		for (int k = 0; k <3; k++) {
+					b[j] = a[i+k];
+					j++;
+				}
+		i+3;
+		}
+
+	}
+
+}

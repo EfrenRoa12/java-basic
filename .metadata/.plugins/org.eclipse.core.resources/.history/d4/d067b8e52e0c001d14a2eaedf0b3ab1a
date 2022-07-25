@@ -1,0 +1,33 @@
+package Chatobot;
+
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class EscribirFichero {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		String escribir;
+		System.out.println("escribe algo para imprimir en .txt ");
+		escribir = entrada.nextLine();
+		char[] lineas = new char[escribir];// { "Esto se escribirá en el fichero" };
+
+		/** FORMA 1 DE ESCRITURA **/
+		FileWriter fichero = null;
+		try {
+
+			fichero = new FileWriter("C:\\\\Users\\\\Efren\\\\Documents\\\\javaIOE\\\\archivo.txt");
+
+			// Escribimos linea a linea en el fichero
+			for (String linea : lineas) {
+				fichero.write(linea + "\n");
+			}
+
+			fichero.close();
+
+		} catch (Exception ex) {
+			System.out.println("Mensaje de la excepción: " + ex.getMessage());
+		}
+	}
+}
